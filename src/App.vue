@@ -12,7 +12,7 @@
 
 <script>
 import Datepicker from './components/Datepicker';
-import Timepicker from './components/Timepicker';
+import Timepicker from './components/Timepicker2';
 import JsonField from './components/JsonField';
 
 export default {
