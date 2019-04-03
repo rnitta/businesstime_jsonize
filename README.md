@@ -1,29 +1,22 @@
-# businesstime_jsonize
+# PM-businesstime-jsonize
+PoC
 
 ## Project setup
-```
-yarn install
+```shell
+$ direnv allow
+$ yarn install
 ```
 
 ### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
+```shell
+$ yarn dev
 ```
 
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
+### Build for production
+```shell
+$ yarn run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# TODO:
+- 入力したjsonを読めるようにする
+- holiday?
