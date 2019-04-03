@@ -8,7 +8,7 @@
   "scripts": {
     "lint": "echo 一応入れてるけどいらんやろ",
     "format": "prettier --write src/**/*.{js,vue}",
-    "serve": "webpack-dev-server --hot --inline --watch-content-base --content-base public/ --open-page index.html",
+    "serve": "webpack-dev-server --hot --inline --watch-content-base --content-base docs/ --open-page index.html",
     "build": "webpack --mode production"
   },
   "dependencies": {
