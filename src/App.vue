@@ -68,7 +68,7 @@ export default {
       this.updateJson();
     },
     updateJson: function() {
-      this.$refs.jsonfield.mutateContent(JSON.stringify(this.result))
+      this.$refs.jsonfield.mutateContent(JSON.stringify(this.result, null, "  "))
     },
   },
 };
