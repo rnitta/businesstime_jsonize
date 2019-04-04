@@ -10,7 +10,7 @@
         }}
       </span>
     </div>
-    <button @click="applyClicked">apply</button>
+    <button @click="applyClicked" class="applyButton">apply</button>
   </div>
 </template>
 
@@ -77,5 +77,11 @@ export default {
 }
 .item.active {
   background-color: lightcyan;
+}
+.applyButton {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #666;
+  border-radius: 4px;
 }
 </style>
